@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "kronos-oracle",
+      "runtimeExecutable": "C:\\Users\\river\\Projects\\Kronos-Forecast\\.venv\\Scripts\\python.exe",
+      "runtimeArgs": [
+        "-m", "streamlit", "run",
+        "C:\\Users\\river\\Projects\\Kronos-Forecast\\app\\forecast_app.py",
+        "--server.port", "8510", "--server.headless", "true",
+        "--theme.base", "dark",
+        "--theme.primaryColor", "#22d3ee",
+        "--theme.backgroundColor", "#070b14",
+        "--theme.secondaryBackgroundColor", "#0f172a",
+        "--theme.textColor", "#e2e8f0"
+      ],
+      "port": 8510
+    },
+    {
+      "name": "stock-dashboard",
+      "runtimeExecutable": "C:\\Users\\river\\Projects\\Kronos-Forecast\\.venv\\Scripts\\python.exe",
+      "runtimeArgs": [
+        "-m", "streamlit", "run", "app.py",
+        "--server.port", "8511", "--server.headless", "true"
+      ],
+      "port": 8511
+    }
+  ]
+}
